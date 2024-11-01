@@ -1,0 +1,17 @@
+/* style used in the public side of wordpress */
+
+/* clearfix used by the double formation */
+.daextsfve-clearfix:after {
+     visibility: hidden !important;
+     display: block !important;
+     font-size: 0 !important;
+     content: " " !important;
+     clear: both !important;
+     height: 0 !important;
+     }
+.daextsfve-clearfix { display: inline-block !important; }
+* html .daextsfve-clearfix { height: 1% !important; }
+.daextsfve-clearfix { display: block !important; }
+
+/* class assigned to hidden players */
+.daextsfve-hidden-player{display: none !important;}

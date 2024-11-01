@@ -1,0 +1,93 @@
+/* style for the layout menu */
+
+#daextsfve-draggable-field{
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    -khtml-user-select: none !important;
+    -o-user-select: none !important;
+    user-select: none !important;
+    -webkit-touch-callout: none !important;
+}
+
+#daextsfve-draggable-field{
+    position: relative !important;
+    width: 710px !important;
+    height: 785px !important;
+}
+
+.daextsfve-field-player{
+    cursor: pointer !important;
+    position: absolute !important;
+    width: 191px !important;
+    height: 32px !important;
+    z-index: 1;
+    border: 0 !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+    box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.5) !important;
+}
+
+.daextsfve-player-number{
+    position: absolute !important;
+    text-transform: uppercase !important;
+    font-size: 20px !important;
+    color: #001C70 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 800 !important;
+    line-height: 32px !important;
+    text-align: center !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 38px !important;
+    height: 32px !important;
+    text-align: center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 800 !important;
+    z-index: 99999999 !important;
+    border: 0 !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+    letter-spacing: 0em !important;
+}
+
+.daextsfve-player-name{
+    position: absolute !important;
+    text-transform: uppercase !important;
+    font-size: 20px !important;
+    color: #001C70 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 800 !important;
+    line-height: 32px !important;
+    text-align: center !important;
+    left: 38px !important;
+    top: 0 !important;
+    width: 153px !important;
+    height: 32px !important;
+    text-align: center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 800 !important;
+    z-index: 99999999 !important;
+    border: 0 !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+    letter-spacing: 0em !important;
+}
+
+#daextsfve-container{
+    width: 500px !important;
+    height: 440px !important;
+}
+
+#daextsfve-positions{
+    color: #777777 !important;
+    float: right !important;
+    font-family: Monaco, monospace !important;
+    font-size: 11px !important;
+    line-height: 14px !important;
+    padding: 10px 0 !important;
+    text-align: left !important;
+    width: 100px !important;
+}
+
+.daextsfve-hidden-player{display: none !important;}
